@@ -1,0 +1,29 @@
+{
+  "name": "verenia-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "start": "tsc -p . && node ./lib/main.js",
+    "start:dev": "nodemon ./lib/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grigor Danielyan",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.1",
+    "joi": "^17.2.0",
+    "multer": "^1.4.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^14.0.27",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
